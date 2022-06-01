@@ -9,7 +9,7 @@ image.addEventListener('load', function(){
     canvas.height = 500;
 
     let particlesArray = [];
-    const numberOfParticles = 12000;
+    const numberOfParticles =6000;
     const detail = 1;
 
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
@@ -80,7 +80,7 @@ image.addEventListener('load', function(){
     animate();
 
     function calculateBrightness(red, green, blue){
-        return blue;
+        return red;
     }
 
 });
