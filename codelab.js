@@ -5,8 +5,8 @@ const image = new Image();
 image.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
-    canvas.width = 205;
-    canvas.height = 246;
+    canvas.width = 700;
+    canvas.height = 500;
 
     let particlesArray = [];
     const numberOfParticles = 12000;
