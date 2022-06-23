@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +24,7 @@ h1{
     transform: translate(-50%,-50%);
     color: #FFF;
     z-index: 1;
-    font-family: system-ui;
+    font-family: 'Montserrat', sans-serif;
     background: transparent;
     border: 2px solid white;
     padding: 3pc;
