@@ -16,9 +16,14 @@
 }
 h1{
    
-    position :absolute;
-    top:50%;
-    left:50%;
-   transform:translate(-50%,-50%);
-    color:whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    z-index: 1;
+    font-family: system-ui;
+    background: transparent;
+    border: 2px solid white;
+    padding: 3pc;
 }
