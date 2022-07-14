@@ -9,14 +9,24 @@ image.addEventListener('load', function(){
     const ctx = canvas.getContext('2d');
     canvas.width = 700;
     canvas.height = 500;
-
+    // An empty set of Particles Array =[]
     let particlesArray = [];
+    // no. of particles 
     const numberOfParticles =1000;
+    //detail of the pixels.
     const detail = 1;
+    /*
+    drawImage takes 5 parameters as input 
+    1. image 
+    2. x,y value where to render image on canvas
+    3. width and height of the canvas 
+    */
 
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+    // for getting pixel data from the canvas starting from x,y value canvas width and height.
     const pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+ //   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     let grid = [];
     for (let y = 0; y < canvas.height; y += detail){
